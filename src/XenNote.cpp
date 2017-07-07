@@ -39,7 +39,7 @@ unsigned char XenNote::getMidiNote() const
 
 unsigned char XenNote::getXenNote() const
 {
-    return (m_midiNote - 23);
+    return (m_midiNote - 24);
 }
 
 unsigned char XenNote::getLength() const
